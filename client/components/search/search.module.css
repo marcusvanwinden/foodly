@@ -1,0 +1,17 @@
+.root {
+  background: var(--gray-light);
+  border-radius: 35px;
+  border: none;
+  margin-bottom: 1em;
+  order: 2;
+  padding: 1em 1.5em;
+  width: 100%;
+}
+
+@media screen and (min-width: 1024px) {
+  .root {
+    margin-top: 1em;
+    max-width: 50%;
+    order: 1;
+  }
+}

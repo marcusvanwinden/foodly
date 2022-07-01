@@ -17,6 +17,21 @@ module.exports = {
         },
         test: /\.tsx?$/,
       },
+      {
+        test: /\.css$/,
+        use: [
+          {
+            loader: 'css-loader',
+            options: {
+              modules: {
+                exportOnlyLocals: true,
+                exportLocalsConvention: 'camelCase',
+                localIdentName: '[local]_[hash:base64:5]',
+              },
+            },
+          },
+        ],
+      },
     ],
   },
   name: 'server',

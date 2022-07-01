@@ -1,0 +1,15 @@
+.root {
+  order: 1;
+}
+
+.navList {
+  display: flex;
+  gap: 1.5em;
+  list-style: none;
+}
+
+@media screen and (min-width: 1024px) {
+  .root {
+    order: 2;
+  }
+}
