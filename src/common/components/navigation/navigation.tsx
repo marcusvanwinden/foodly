@@ -5,10 +5,10 @@ export const Navigation: React.FC = () => (
   <nav className={css.root}>
     <ul className={css.navList}>
       <li>
-        <a href="/profile">Profile</a>
+        <a href="/profiel">Profiel</a>
       </li>
       <li>
-        <a href="/basket">Basket</a>
+        <a href="/winkelwagen">Winkelwagen</a>
       </li>
     </ul>
   </nav>
