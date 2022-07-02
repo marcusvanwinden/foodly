@@ -4,7 +4,7 @@ const path = require('path');
 
 module.exports = {
   entry: {
-    server: path.resolve(__dirname, 'server/server.ts'),
+    server: path.resolve(__dirname, 'src/server'),
   },
   externals: [nodeExternals()],
   mode: 'production',
@@ -46,7 +46,7 @@ module.exports = {
     new CopyPlugin({
       patterns: [
         {
-          context: 'server',
+          context: 'src/server',
           from: 'views',
           to: 'views',
         },
