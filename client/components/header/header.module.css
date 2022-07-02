@@ -1,0 +1,13 @@
+.root {
+  border-bottom: 1px solid var(--gray-light);
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0 1em;
+}
