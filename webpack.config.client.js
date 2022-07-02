@@ -4,7 +4,7 @@ const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 
 module.exports = {
   entry: {
-    client: path.resolve(__dirname, 'client/client.tsx'),
+    client: path.resolve(__dirname, 'src/client'),
   },
   mode: 'production',
   module: {
