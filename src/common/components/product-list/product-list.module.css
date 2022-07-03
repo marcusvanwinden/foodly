@@ -1,0 +1,12 @@
+.productList {
+  margin: 2em 0;
+}
+
+.container {
+  display: grid;
+  gap: 2em;
+  grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
+  margin: 0 auto;
+  max-width: 1500px;
+  padding: 0 1em;
+}
