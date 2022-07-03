@@ -1,6 +1,8 @@
 :root {
-  --gray-light: #e6e6e6;
   --blue-primary: #007bc5;
+  --blue-secondary: #0269a9;
+  --gray-light: #e6e6e6;
+  --white: #ffffff;
 }
 
 html {
