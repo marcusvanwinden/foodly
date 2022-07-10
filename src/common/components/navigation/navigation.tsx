@@ -1,14 +1,15 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import css from './navigation.module.css';
 
 export const Navigation: React.FC = () => (
   <nav className={css.root}>
     <ul className={css.navList}>
       <li>
-        <a href="/profiel">Profiel</a>
+        <Link to="/profiel">Profiel</Link>
       </li>
       <li>
-        <a href="/winkelwagen">Winkelwagen</a>
+        <Link to="/winkelwagen">Winkelwagen</Link>
       </li>
     </ul>
   </nav>
